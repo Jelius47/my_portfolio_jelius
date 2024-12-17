@@ -65,7 +65,33 @@ section {
     top: 0;
     padding: 3rem 18rem;
 }
+.section{
+    transform: translateY(-100) scale(0);
+    transition: all .4s ease-in-out;
+    background-color: var(--color-primary);
+}
+.sec1{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+.sec2{
+    display: none;
+    transform: translateY(0) scale(1);
+}
 
+.sec3{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sec4{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+.sec5{
+    display: none;
+    transform: translateY(0) scale(1);
+}
 .container {
     display: none;
     transform: translateY(-100%) scale(0);
@@ -141,6 +167,12 @@ section {
         pointer-events: none;
     }
 }
+// .section.active {
+//     display: block; /* Ensure active section is displayed */
+//     transform: translateY(0) scale(1); /* Bring section into view */
+//     opacity: 1;
+//     z-index: 10;
+// }
 
 
 /*Header-content*/
